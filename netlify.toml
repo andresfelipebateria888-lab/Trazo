@@ -1,0 +1,10 @@
+# Netlify publica la carpeta "web" cada vez que se sube un cambio a GitHub
+[build]
+  publish = "web"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

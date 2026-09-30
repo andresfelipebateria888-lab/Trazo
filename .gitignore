@@ -1,0 +1,5 @@
+# Datos reales de la empresa: nunca se suben al repositorio público
+datos_iniciales*.sql
+*.env
+.env*
+supabase/.temp/
